@@ -1,0 +1,138 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+.qazx {
+  text-align: center;
+}
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6a5acd;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  .item{
+    width: 10%;
+    height: 10%;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background: #f0e68c;
+  }
+  
+  .gallery .item {
+    background: #f0e68c;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .gallery .item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .artists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #FFFFFF;
+  }
+  
+  .artist {
+    background: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .artist img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #add8e6;
+  }
+  
+  .slider .slides {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .slider .slide {
+    min-width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .slider .slide img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .slider button {
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background: #6a5acd;
+    color: white;
+    padding: 10px;
+  }
+  
+  footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  /* Адаптивная верстка */
+  @media (max-width: 768px) {
+    .gallery, .artists {
+      flex-direction: column;
+    }
+  }
