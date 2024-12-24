@@ -6,10 +6,6 @@ body {
     line-height: 1.6;
   }
   
-.qazx {
-  text-align: center;
-}
-
   header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +35,10 @@ body {
     color: white;
     text-decoration: none;
   }
-  
+  header nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
   .gallery {
     display: flex;
     gap: 20px;
@@ -59,8 +58,11 @@ body {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    transition: 1s; /* Время эффекта */
   }
-  
+  .gallery .item img:hover{
+      transform: scale(1.8); /* Увеличиваем масштаб */
+  } 
   .artists {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,4 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,13 +7,13 @@
   <meta name="keywords" content="арт-галерея, произведения искусства, картины, художники, живопись, графика, современное искусство, классическое искусство">
   <meta name="author" content="Ваше имя">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Арт-галерея</title>
 </head>
 <body>
   <header>
-    <div class="logo">Арт-галерея<i class="fa fa-quora" aria-hidden="true"></i></div>
+    <div class="logo">Арт-галерея<img src="favicon.ico"></div>
     <nav>
       <ul>
         <li><a href="#">Главная</a></li>
